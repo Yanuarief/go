@@ -48,6 +48,5 @@ func init() {
 		fmt.Println(`Migrate Database `+ key)
 	}
 
-	
 }
 

@@ -10,6 +10,9 @@ import(
 func Routers(){
 	router := gin.Default()
 
+	// Router Favicon
+	router.GET("/favicon.ico", controllers.Favicon)
+
 	// Router Controller1
 	router.GET("/gets", controllers.GetData)
 	router.GET("/gets/:id", controllers.GetDataByID)
